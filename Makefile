@@ -13,3 +13,7 @@ $(BIN_D)/myapp : $(OBJECT)
 $(OBJ_D)/%.o : $(SRC_D)/%.c
 	gcc -c $< -o $@ -I $(INC_D)
 	
+
+clean:
+	rm -f $(OBJ_D)/*.o
+	rm -f $(BIN_D)/*
