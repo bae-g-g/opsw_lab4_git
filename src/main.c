@@ -7,6 +7,6 @@ int main(){
 
     foo();
     goo();
-    printf("main\n");
+    printf("main yahoo\n");
     
 }
